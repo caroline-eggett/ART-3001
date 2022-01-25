@@ -1,0 +1,30 @@
+body   
+{  
+height: 125vh;  
+margin-top: 80px;  
+padding: 30px;  
+background-size: cover;  
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+}  
+header {  
+background-color: rgb(106, 187, 224);  
+position: fixed;  
+left: 0;  
+right: 0;  
+top: 5px;  
+height: 60px; 
+text-align: end; 
+display: flex;  
+align-items: center;
+box-shadow: 0 0 25px 0 black;  
+}  
+header * {  
+display: inline;  
+}  
+header li {  
+margin: 20px;  
+}  
+header li a {  
+color: white;  
+text-decoration: none;  
+}  
